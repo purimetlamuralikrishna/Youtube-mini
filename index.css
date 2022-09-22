@@ -1,0 +1,93 @@
+/* #navbardiv{
+    position: fixed;
+    z-index: +1;
+    background-color: beige;
+    margin-top: 0%;
+} */
+#navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#logodiv{   
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+#logodiv>div{
+    height: 100px;
+    margin-right: 10px;
+}
+
+#logodiv img{
+    height: 100px;
+}
+#logodiv .fa-solid{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#searchdiv{
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+#inputdiv{
+    width: 90%;
+    height: 40%;
+    padding-bottom: 2px;
+}
+#buttondiv{
+    width: 10%;
+    height: 40%;
+    text-align: center;
+    margin-left: 3px;
+    border: 1px solid black;
+    background-color: rgb(191, 194, 193);
+}
+#search{
+    width: 100%;
+    height: 90%;
+  
+}
+.fa-magnifying-glass{
+   font-size: 30px;
+   padding-top: 5px;
+   color: rgb(105, 102, 102);
+  
+}
+#iconsdiv{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.fa-video,.fa-grip-vertical,.fa-bell,.fa-user{
+    padding: 20px;
+    font-size: 30px;
+}
+ul{
+    display: inline-flex;
+}
+li{
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    background-color:rgb(170, 165, 165);
+    margin-left: 10px;
+    border-radius: 8px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#container{
+    display: grid;
+    margin: auto;
+    width: 90%;
+    grid-template-columns: repeat(4,20%);
+    gap: 5%;
+}
